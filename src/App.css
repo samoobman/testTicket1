@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    box-sizing: border-box;
+    background-color: rgba(242, 249, 255, 0.8);
+}
+
+.App {
+    grid-auto-rows: 120px auto;
+    width: 100vw;
+    height: 100vh;
+}
+

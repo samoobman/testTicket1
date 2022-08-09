@@ -1,0 +1,109 @@
+.container {
+    display: grid;
+    grid-template-columns: 18vw 37vw;
+    width: 55vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(220, 220, 220, 0.8);
+}
+
+.container:hover {
+    box-shadow: 0 10px 20px rgba(220, 220, 220, 0.8)
+}
+
+.leftSide {
+    border-right: 2px solid rgba(220, 220, 220, 0.8);
+}
+
+.leftSide img {
+    width: 12vw;
+    height: 7vw;
+    margin-left: 3vw;
+}
+
+.myButton {
+    width: 14vw;
+    height: 5vw;
+    border-radius: 10px;
+    background-color: rgba(255, 87, 0, 0.96);
+    text-align: center;
+    padding-top: 0.2vw;
+    margin-left: 2vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.myButton:hover {
+    background-color: rgba(255, 137, 5, 0.86);
+    box-shadow: 0 0 5px rgba(220, 220, 220, 0.8);
+    cursor: pointer;
+}
+
+.rightSide {
+    display: grid;
+    grid-template-rows: 2vw 5vw 5vw;
+}
+
+.topContainer {
+    display: grid;
+    grid-template-columns: 10vw 17vw 10vw;
+}
+
+.topContainer div {
+}
+
+.Time {
+    padding-left: 1.4vw;
+    font-size: 3vw;
+    float: right;
+    color: gray;
+}
+
+.lineStopsContainer {
+    padding-top: 1vw;
+    display : inline-block;
+    text-align: center;
+}
+
+.lineContainer {
+    display: grid;
+    grid-template-columns: 14vw 3vw;
+}
+
+.lineContainer img {
+    width: 2vw
+}
+
+.stops {
+    font-size: 1vw;
+}
+
+.line {
+    border: none;
+    background-color: gray;
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottomContainer {
+    display: grid;
+    grid-template-columns: 18.5vw 18.5vw;
+}
+
+.dateTime {
+    font-size: 1vw;
+}
+
+.airport {
+  font-size: 1.2vw;
+}
+
+.info1 {
+    padding-left: 1.4vw;
+}
+
+.info2 {
+    padding-left: 9vw;
+}

@@ -1,0 +1,117 @@
+.leftmenu {
+    display: block;
+    background-color: white;
+    width: 23vw;
+    height: 30vw;
+    border-radius: 10px;
+    margin-right: 1vw;
+    box-shadow: 0 0 5px rgba(220, 220, 220, 0.8);
+    overflow: auto;
+}
+
+.topContainer {
+    grid-auto-rows: auto;
+    padding-top: 2vw;
+    padding-left: 2.5vw;
+    margin-bottom: 5vw;
+}
+
+.topHeadMenu {
+    font-size: 1vw;
+}
+
+.bottomHeadMenu {
+    padding-left: 2.5vw;
+    padding-bottom: 0.4vw;
+    font-size: 1vw;
+}
+
+.bottomContainer {
+    padding-top: 2vw;
+}
+
+.bottomHeadMenu {
+    padding-left: 2.5vw;
+    padding-bottom: 0.4vw;
+    font-size: 1vw;
+}
+
+.btnGroup {
+    margin-top: 1vw;
+
+}
+
+.checkBox {
+    display: grid;
+    grid-template-columns: 2vw 9vw 8vw;
+    margin-left: 2.3vw;
+    margin-right: 1.7vw;
+    padding-top: 0.95vw;
+    padding-bottom: 0.95vw;
+    font-size: 1vw;
+}
+
+.checkBoxContainer:hover {
+    background-color: rgba(35, 152, 255, 0.17)
+}
+
+.checkBoxContainer:hover .onlyButton {
+    display: block;
+    cursor: pointer;
+}
+
+label {
+    margin-left: 1vw;
+}
+
+.onlyButton {
+    color: rgba(35, 152, 255, 1);
+    padding-left: 3.5vw;
+    float: right;
+    display: none;
+}
+
+.btnGroup button:not(:last-child) {
+    border-right: none;
+}
+
+.btnGroup button:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btnGroup button:nth-child(3) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid rgba(35, 152, 255, 1);
+    color: rgba(35, 152, 255, 1);
+    padding: 1vw 2vw;
+    cursor: pointer;
+    float: left;
+}
+
+.btnOn {
+    background-color: rgba(35, 152, 255, 1);
+    border: 1px solid rgba(35, 152, 255, 1);
+    color: white;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    float: left;
+}
+
+
+.btnGroup button:hover {
+    background-color: rgba(35, 152, 255, 0.17);
+    color: rgba(35, 152, 255, 1);
+}
+
+@media (max-width: 1350px) {
+    .leftmenu {
+        width: 55vw;
+        margin-right: 0;
+    }
+}

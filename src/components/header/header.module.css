@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding:40px
+}
+
+.header img {
+    height: 80px;
+    width: 80px;
+    -webkit-filter: drop-shadow(0 10px 10px rgba(207, 207, 207, 0.8));
+    filter: drop-shadow(0 10px 10px rgba(207, 207, 207, 0.8));
+}

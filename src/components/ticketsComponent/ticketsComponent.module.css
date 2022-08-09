@@ -1,0 +1,19 @@
+.wrapper {
+   display: grid;
+   grid-template-columns: 25vw 55vw;
+   justify-items: center;
+   justify-content: center;
+
+}
+
+.ticketsCol {
+   display: grid;
+   grid-auto-rows: 15vw;
+}
+
+@media (max-width: 1350px) {
+   .wrapper {
+      grid-template-columns: none;
+      grid-auto-rows: auto
+   }
+}
